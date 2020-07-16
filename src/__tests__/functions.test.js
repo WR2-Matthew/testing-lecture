@@ -63,4 +63,14 @@ test('User name is Leanne', async () => {
 
   const data = await fetchUser();
   expect(data.name).toEqual('Leanne Graham')
+});
+
+describe('Math Functions', () => {
+  test('multiply should return a a product', () => {
+    expect(mult(3, 4)).toBe(12)
+  })
+
+  test('add should return a sum', () => {
+    expect(add(3, 4)).toBe(7)
+  })
 })
