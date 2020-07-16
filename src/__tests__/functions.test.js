@@ -1,5 +1,7 @@
 const { add, sub, mult, dvde, sayHello, fetchUser } = require('../functions');
 
+//JEST Testing Library
+
 //TO RUN TESTS WE NEED TO RUN IN THE TERMINAL NPM RUN TESTS!
 //Test suites are the amount of test files we have.
 //Tests are how many tests ran.
